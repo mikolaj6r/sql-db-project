@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="DC8D3276-731B-4112-84FA-CB0D9409FCA9">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:01 UTC</createdTime>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

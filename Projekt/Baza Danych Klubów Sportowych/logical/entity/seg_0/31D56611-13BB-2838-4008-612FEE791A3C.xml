@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31D56611-13BB-2838-4008-612FEE791A3C" name="Funkcja">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:22 UTC</createdTime>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<importedID>389538A9-927A-1C05-9B25-AAAD6848D3A7</importedID>
+<engineerTo>
+<item key="05FFA788-9E79-53B7-114F-E75AEBFB982F" value="true"/>
+<item key="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nazwa" id="40BF6D7C-F024-97B2-2640-0DF67189ED1E">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:22 UTC</createdTime>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<importedID>54E5F89E-5931-3AC5-CEF9-3D8C5BED469E</importedID>
+<engineerTo>
+<item key="05FFA788-9E79-53B7-114F-E75AEBFB982F" value="true"/>
+<item key="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="placa_podstawowa" id="FC50FE28-1C7B-42AF-EDC5-4711C4CC5F9A">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:22 UTC</createdTime>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<importedID>082AB088-CEC1-7B44-DB4D-059B7A620A29</importedID>
+<engineerTo>
+<item key="05FFA788-9E79-53B7-114F-E75AEBFB982F" value="true"/>
+<item key="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E203CC38-FAA1-C821-7283-DFF06E708883" name="Funkcja PK">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:22 UTC</createdTime>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<importedID>78B6BFD3-DD37-9627-5FBB-4AA6A6C404F1</importedID>
+<engineerTo>
+<item key="05FFA788-9E79-53B7-114F-E75AEBFB982F" value="true"/>
+<item key="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>40BF6D7C-F024-97B2-2640-0DF67189ED1E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="712CE1AC-C6E4-50A2-AF1A-98C5F524E470" name="Dział">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:22 UTC</createdTime>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<importedID>6768F992-C922-5D57-BF77-9D7A9AD4CC6E</importedID>
+<engineerTo>
+<item key="05FFA788-9E79-53B7-114F-E75AEBFB982F" value="true"/>
+<item key="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nazwa" id="DD01A224-10E4-B313-1A2C-0D54E95DFFCD">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:22 UTC</createdTime>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<importedID>265617F5-CDC7-5F45-460A-5448350BBEB4</importedID>
+<engineerTo>
+<item key="05FFA788-9E79-53B7-114F-E75AEBFB982F" value="true"/>
+<item key="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesel" id="85D5C72C-645F-4054-8D98-D5C5E61213E3">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:22 UTC</createdTime>
+<generatorID>12659845-2EB3-DCF8-0C58-DA6764DB3B30</generatorID>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<importedID>B860457E-9234-E0DF-AA21-404067CE5D95</importedID>
+<engineerTo>
+<item key="05FFA788-9E79-53B7-114F-E75AEBFB982F" value="true"/>
+<item key="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" value="true"/>
+</engineerTo>
+<referedAttribute>C9EBB613-AB19-1504-1B37-49191622139D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGON" id="632A2949-7D79-7507-1159-3DC144301154">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 12:46:41 UTC</createdTime>
+<generatorID>22E98AA6-E76E-07DD-76F0-9EFA7353AC4C</generatorID>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<engineerTo>
+<item key="05FFA788-9E79-53B7-114F-E75AEBFB982F" value="true"/>
+<item key="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" value="true"/>
+</engineerTo>
+<referedAttribute>D69B5C19-274D-017C-0834-9F3EB4E3D003</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05FFA224-EF9C-D80C-EF41-8CEDC423CBED" name="Dział PK">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:22 UTC</createdTime>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<importedID>8CC94409-7F67-BF1C-581E-CD832840A22F</importedID>
+<engineerTo>
+<item key="05FFA788-9E79-53B7-114F-E75AEBFB982F" value="true"/>
+<item key="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD01A224-10E4-B313-1A2C-0D54E95DFFCD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

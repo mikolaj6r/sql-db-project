@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="pszenżyto" id="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" mainViewID="96BC9AEC-F2B3-7682-4F09-B9A97587422B">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:20 UTC</createdTime>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

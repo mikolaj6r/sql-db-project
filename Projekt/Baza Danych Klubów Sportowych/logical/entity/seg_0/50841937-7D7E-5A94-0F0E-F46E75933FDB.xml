@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="50841937-7D7E-5A94-0F0E-F46E75933FDB" name="Wydarzenie">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:22 UTC</createdTime>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<importedID>A82E128E-7E9A-793B-4DBD-F7635AFE0060</importedID>
+<engineerTo>
+<item key="05FFA788-9E79-53B7-114F-E75AEBFB982F" value="true"/>
+<item key="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="data" id="786C2B9F-80E1-4D2E-A34A-C47790A88740">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:22 UTC</createdTime>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<importedID>ADC7BBC4-AFE0-9EF7-9712-1B994012BECF</importedID>
+<engineerTo>
+<item key="05FFA788-9E79-53B7-114F-E75AEBFB982F" value="true"/>
+<item key="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa" id="3452E6CF-98B7-9542-AAB8-A61FB9CB7159">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:22 UTC</createdTime>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<importedID>ED47A76D-C71F-F789-7652-2F7117EC9135</importedID>
+<engineerTo>
+<item key="05FFA788-9E79-53B7-114F-E75AEBFB982F" value="true"/>
+<item key="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="miejsce" id="E99F63C6-505A-2540-475D-8D7E831DE778">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:22 UTC</createdTime>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<importedID>3189CFE9-97BB-5DD4-DDA6-4AA6DD53463E</importedID>
+<engineerTo>
+<item key="05FFA788-9E79-53B7-114F-E75AEBFB982F" value="true"/>
+<item key="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F64476B8-8C42-B5F4-2578-D52E39F6133F" name="Wydarzenie PK">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:22 UTC</createdTime>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<importedID>B4C909F5-3AEA-9928-2AD1-188DE083E25C</importedID>
+<engineerTo>
+<item key="05FFA788-9E79-53B7-114F-E75AEBFB982F" value="true"/>
+<item key="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3452E6CF-98B7-9542-AAB8-A61FB9CB7159</attributeRef>
+<attributeRef>786C2B9F-80E1-4D2E-A34A-C47790A88740</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

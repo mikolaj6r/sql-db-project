@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="przynależnośćv1" directorySegmentName="seg_0" id="22E98AA6-E76E-07DD-76F0-9EFA7353AC4C">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:22 UTC</createdTime>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<importedID>8DC26E91-90A9-976D-F6C0-19859A5B7918</importedID>
+<engineerTo>
+<item key="05FFA788-9E79-53B7-114F-E75AEBFB982F" value="true"/>
+<item key="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" value="true"/>
+</engineerTo>
+<sourcePk>0AEC02C6-1AB1-D6F7-36AD-039218BD271B</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Składa się z</nameOnSource>
+<nameOnTarget>Wchodzi w skład</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FE3CD2C9-C542-38D8-02D4-6A7E52506B28</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>712CE1AC-C6E4-50A2-AF1A-98C5F524E470</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="07A673C9-45CC-5332-0C25-EB145404931D">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:22 UTC</createdTime>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<importedID>CCCF2583-6067-14F2-84C0-7C76226631EF</importedID>
+<engineerTo>
+<item key="05FFA788-9E79-53B7-114F-E75AEBFB982F" value="true"/>
+<item key="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" value="true"/>
+</engineerTo>
+<sourcePk>E203CC38-FAA1-C821-7283-DFF06E708883</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Wykonywana w</nameOnSource>
+<nameOnTarget>Posiada</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>31D56611-13BB-2838-4008-612FEE791A3C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>712CE1AC-C6E4-50A2-AF1A-98C5F524E470</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

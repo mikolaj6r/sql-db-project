@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="541E14F3-5B40-17EF-C219-044FC03BB8CC" name="asortyment" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="0DDD9ACC-1988-9621-3FF8-A37A0A087430" name="dział" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="0A7C77C9-B884-D856-497A-83FA7D76765E" name="funkcje" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="30691745-D023-A62E-0022-00FF3BF9F7B3" name="pracownicy" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="9FC80B1C-F4FB-E7C9-BE22-3137BAAB39BB" name="sportowy" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

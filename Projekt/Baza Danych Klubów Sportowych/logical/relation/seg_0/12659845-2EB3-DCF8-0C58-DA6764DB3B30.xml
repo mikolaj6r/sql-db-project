@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kierownictwo" directorySegmentName="seg_0" id="12659845-2EB3-DCF8-0C58-DA6764DB3B30">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-14 11:48:22 UTC</createdTime>
+<ownerDesignName>Baza Danych Klubów Sportowych</ownerDesignName>
+<importedID>8759169A-C5FD-B04A-05F7-88CF201D3E9C</importedID>
+<engineerTo>
+<item key="05FFA788-9E79-53B7-114F-E75AEBFB982F" value="true"/>
+<item key="8C3FF5DB-A59D-8D9D-6D14-5EE72B6795D3" value="true"/>
+</engineerTo>
+<sourcePk>05FFA224-EF9C-D80C-EF41-8CEDC423CBED</sourcePk>
+<targetPk>0817BDAD-E894-FB3F-99A5-3865EDC52909</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Zatrudnia</nameOnSource>
+<nameOnTarget>Pracuje w</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>712CE1AC-C6E4-50A2-AF1A-98C5F524E470</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>592A8762-0892-5952-2D64-7C472EFC0153</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
