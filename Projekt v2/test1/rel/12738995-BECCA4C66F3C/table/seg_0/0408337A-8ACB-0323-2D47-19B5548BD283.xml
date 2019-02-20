@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0408337A-8ACB-0323-2D47-19B5548BD283" name="Dzialy">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>EDE31449-E246-9DB4-DAD0-6A3C4FF21B4D</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazwa" id="BDA143F2-8BB6-67BC-7808-AC950A3F9FEC">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>75F7E482-4C2D-16C0-8610-3559343F6698</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pracownik_pesel" id="D03FBAAC-04AB-0599-40AD-FED7502D1681">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>086B322F-0A6F-0E04-A375-757ECEB6923A</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EE96498-D2E2-4005-CB1B-E76D0067460A" referredColumn="58E637F9-B9F7-5CA5-EF2A-AC279AD09D42"/>
+</associations>
+</Column>
+<Column name="Klub_REGON" id="4C74A4EF-87FD-46CF-B810-5BA8896A13C4">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>4C1CF14F-6EA2-3570-2295-B29BC4770429</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6F75781-2F18-451B-1FF4-49ED1F30A8DD" referredColumn="D7266F85-86F1-B7A9-B087-EF545A60D4CF"/>
+</associations>
+</Column>
+<Column name="Budynek_nazwa" id="6FC2CB3A-5217-F901-887C-EF1EF13EF015">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>0DEF9C49-8BED-3B36-1FB7-F11DB64576CD</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0770D6A8-0753-AD65-873D-9BE3FDECFCDE" referredColumn="A399FBFC-F407-FC65-A2DB-310044AA7DF5"/>
+</associations>
+</Column>
+<Column name="Budynek_adres" id="9918A146-48E1-F64A-CD4D-15174A0BB495">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>1DC8E44E-720C-0CB9-305D-C8B0C70A3600</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0770D6A8-0753-AD65-873D-9BE3FDECFCDE" referredColumn="D2E95547-5604-1FFA-840A-2F95A8C9A11F"/>
+</associations>
+</Column>
+<Column name="czy_sportowy" id="4DC2E01C-1947-97D4-1643-2F6AE9D02ACD">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:17:27 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B749839-BAD6-676D-529E-10893D074FD2" name="Dział_PK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>0418E4F5-CCCF-BD5A-0B95-542DDB1AE2F6</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDA143F2-8BB6-67BC-7808-AC950A3F9FEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B88320D-33D2-BA18-1EBC-01BEC6854036" name="Dział_Budynek_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>3041B7C5-2080-DEA7-D505-988BD05CCF2D</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FC2CB3A-5217-F901-887C-EF1EF13EF015"/>
+<colUsage columnID="9918A146-48E1-F64A-CD4D-15174A0BB495"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CCA6EA5-D861-D12A-CBF9-3F1DD06E480E" name="Dział_Pracownik_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>FF783B5F-7A80-8271-AE36-6E4A340BE63E</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D03FBAAC-04AB-0599-40AD-FED7502D1681"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18E9F894-7218-0A48-019B-08526BD1BFA0" name="Dział_Klub_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>F7584FC7-6422-1FC5-D93A-C41E495C3DC1</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C74A4EF-87FD-46CF-B810-5BA8896A13C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

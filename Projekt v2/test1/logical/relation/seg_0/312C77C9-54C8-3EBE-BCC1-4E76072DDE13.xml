@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dział-asortyment" directorySegmentName="seg_0" id="312C77C9-54C8-3EBE-BCC1-4E76072DDE13">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:06:03 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<importedID>52A095AA-13DF-DF63-CFFE-1C0E5DD809FA</importedID>
+<engineerTo>
+<item key="4B85BEE3-3120-875E-2F80-01C1FBC1D41B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Posiada</nameOnSource>
+<nameOnTarget>Należy do</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>EDE31449-E246-9DB4-DAD0-6A3C4FF21B4D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BA81D7F8-1DD0-DF60-C57E-1BC90B4E8F7A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

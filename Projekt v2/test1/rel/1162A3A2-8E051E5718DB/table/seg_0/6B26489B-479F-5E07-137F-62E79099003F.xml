@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B26489B-479F-5E07-137F-62E79099003F" name="Wydarzenia">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>C9B6A2A4-D55B-AB43-87CC-65BFF51A4973</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="data" id="96E3E8C4-E641-122D-DBAA-C82ADE3488BF">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>D7A62C7A-0171-F1A5-217F-D3E332832718</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazwa" id="F138D0A8-3FD9-223C-D86C-441DE57DB792">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>507734BD-2062-0134-7127-194A6C95D2DD</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="miejsce" id="4CFF6EF5-BE9D-CF6C-571A-F44202036261">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>ACB8A239-C4D2-9BF6-FE25-916ABBCC093A</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13E0E214-36F3-EDEF-7917-7938D7AAFC19" name="Wydarzenie_PK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>4BBBAB44-F94D-0E45-DC0C-A91BF4350A3A</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F138D0A8-3FD9-223C-D86C-441DE57DB792"/>
+<colUsage columnID="96E3E8C4-E641-122D-DBAA-C82ADE3488BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

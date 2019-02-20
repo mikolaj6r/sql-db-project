@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1261C19D-92CC-9C03-0DEA-9E23D9661587" name="Budynki">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>9590AAF7-E5DE-532E-B6A8-5745B36A4B76</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazwa" id="92329DEE-686B-A46A-6C75-E91F3708451B">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>F6039D92-BA0A-5542-934A-82F332A73898</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adres" id="C7227125-A700-F535-900B-9C1120E2D7FC">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>54593EA7-3649-43EF-2968-DE8E61B54825</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="976B9E08-2ABA-EA55-FF9B-55188E3F5EA9" name="Budynek_PK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>D6CB98DB-5EB7-8BBA-6E85-542CD6B730DB</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92329DEE-686B-A46A-6C75-E91F3708451B"/>
+<colUsage columnID="C7227125-A700-F535-900B-9C1120E2D7FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

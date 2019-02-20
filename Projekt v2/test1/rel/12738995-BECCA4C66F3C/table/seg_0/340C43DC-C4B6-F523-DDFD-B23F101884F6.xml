@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="340C43DC-C4B6-F523-DDFD-B23F101884F6" name="Funkcje">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>C226D5D9-6BCD-64C0-80BA-5D51E59615E2</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazwa" id="0D8FE829-8C7C-41EA-5C65-40C7A7DA4ECA">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>9BBCAA80-CBC5-0D1E-AC94-6A9B68FB69A9</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="placa_podstawowa" id="B2457C1E-CCD4-746E-AF46-FA7541D9CEB5">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>321E8032-496B-7045-5AC9-F66EBAEAA912</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC729D5E-38AD-4392-8F6E-762EED7AFE78" name="Funkcja_PK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>01950877-09D5-EEB0-DEC2-1E23987C9C37</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D8FE829-8C7C-41EA-5C65-40C7A7DA4ECA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

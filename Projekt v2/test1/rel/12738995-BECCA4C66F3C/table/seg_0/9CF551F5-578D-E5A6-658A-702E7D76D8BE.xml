@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CF551F5-578D-E5A6-658A-702E7D76D8BE" name="Pracownicy_Funkcje">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Funkcja_nazwa" id="893BBD57-AE2B-8D7B-E072-3B4DE0A2DFBE">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8082938-D15D-7E80-55A3-139D0AB81EF0" referredColumn="0D8FE829-8C7C-41EA-5C65-40C7A7DA4ECA"/>
+</associations>
+</Column>
+<Column name="Pracownik_pesel" id="A215FF52-2648-F10E-A28D-112786BD11D5">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2992DD98-57EB-7488-24E3-554F0258269B" referredColumn="58E637F9-B9F7-5CA5-EF2A-AC279AD09D42"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92F6F557-7C2B-3A15-9A57-1A59EA6CFB3F" name="pracownik-funkcja_PK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="893BBD57-AE2B-8D7B-E072-3B4DE0A2DFBE"/>
+<colUsage columnID="A215FF52-2648-F10E-A28D-112786BD11D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4860EF0-3E06-4F23-D496-BB41BD7EAFFB" name="pracownik-funkcja_Funkcja_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>FC82CA85-879E-BC48-A20C-80665035CD2F</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="893BBD57-AE2B-8D7B-E072-3B4DE0A2DFBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01BDEAA6-9E77-C86C-4309-7DBE50B99296" name="pracownik-funkcja_Pracownik_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>FC82CA85-879E-BC48-A20C-80665035CD2F</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A215FF52-2648-F10E-A28D-112786BD11D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

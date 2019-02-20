@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C8EEF2A-7F5D-4EA2-A613-E3D98E59009D" name="Fankluby">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>9E47BCAA-3BAB-792D-BC1B-AFE42A6E4297</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazwa" id="90BB5BB1-B359-278D-928D-1DBC12C2237E">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>A8F85CEC-7FC5-3871-0879-0212F30FE884</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="liczba_członków" id="F1A244EB-B6EC-890F-B623-7E267A33B5D3">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>70860320-AB72-2EB7-E9E5-C4F3E06A378B</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_założenia" id="3402C01F-FACE-EB87-F0B9-39C1A6C1F876">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>6D6FC571-C4C1-D623-5FDC-534244CD6067</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numer_rejestracji" id="0F180A56-C275-B218-7513-F4E37EAE3451">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>EECF51D4-42A8-C039-A040-8A99DA1A8FA9</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klub_REGON" id="F5ACFEE6-32C9-F7E2-FF1B-E62C08CE469B">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>DE92D2B9-7ADA-86B3-1D5A-31C3A2463EDB</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E4939A4-B440-CDB7-4A3C-24BB6A1BB4CF" referredColumn="FB0774B8-DD6E-3788-AA8E-51F0B9714689"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9F44CAD-67CD-9EC5-859B-AF00EC3BEA61" name="Fanklub_PK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>06070B74-088D-7570-1B0C-230CAFF5CADA</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90BB5BB1-B359-278D-928D-1DBC12C2237E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="851B2A34-2047-FAE0-D54E-B40BF1284E19" name="Fanklub_Klub_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>52D4E744-75CA-2146-F8BC-6EE234E337BA</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5ACFEE6-32C9-F7E2-FF1B-E62C08CE469B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

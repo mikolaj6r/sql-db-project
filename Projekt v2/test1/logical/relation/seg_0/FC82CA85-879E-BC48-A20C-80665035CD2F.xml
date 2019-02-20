@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pracownik-funkcja" directorySegmentName="seg_0" id="FC82CA85-879E-BC48-A20C-80665035CD2F">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:06:03 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<importedID>3AE1A956-3C58-1BE0-6D77-B9A8A077D1AF</importedID>
+<engineerTo>
+<item key="4B85BEE3-3120-875E-2F80-01C1FBC1D41B" value="true"/>
+</engineerTo>
+<sourcePk>01950877-09D5-EEB0-DEC2-1E23987C9C37</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Wykonywana przez</nameOnSource>
+<nameOnTarget>Wykonuje</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C226D5D9-6BCD-64C0-80BA-5D51E59615E2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BD422A41-5053-6C5D-9A6C-C6F673B1668E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

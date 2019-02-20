@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04A2B207-730C-B446-484D-1A93AD4A4E98" name="Biurowe">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>1B3D7AC0-5F37-B262-581E-BBB70017EA5D</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazwa" id="8199895A-C473-D4C5-B224-3A61ADC93D0B">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>75F7E482-4C2D-16C0-8610-3559343F6698</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28534D19-B8B7-8256-FB0C-3ADCB1D7D02D" referredColumn="55636A95-E543-4B2D-DD69-0358A3B4DFDD"/>
+</associations>
+</Column>
+<Column name="nr_pokoju" id="015E640B-1E6F-ED86-8F79-10DAA834A299">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>E91C5566-51AE-EE14-570F-37D9FF5340B7</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="piętro" id="0542399B-BD28-E4AF-45E1-03FE6D76091D">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>096F8048-9FFF-E70F-53A3-F377260CD0B7</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10DEBF2D-F091-121F-A8AD-68B133420407" name="Biurowy_PK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>0418E4F5-CCCF-BD5A-0B95-542DDB1AE2F6</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8199895A-C473-D4C5-B224-3A61ADC93D0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D48528E7-AF1E-B58D-6294-87B336D6008D" name="Biurowy_Dział_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>7BFCB1D2-EDD4-4532-C015-C0BACE3D33DD</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8199895A-C473-D4C5-B224-3A61ADC93D0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="596D66F9-7767-B3BE-7A06-E978A36B07E9" containerWithKeyObject="7028C60E-DF10-7299-7AF2-B6AFDDDAE877" localFKIndex="24B69323-C007-C8C2-B27D-26C843EDAF26" name="pracownik-funkcja_Pracownik_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>FC82CA85-879E-BC48-A20C-80665035CD2F</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<referredTableLongName>Pracownicy</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C4B98B70-D769-38D8-9381-BA69FE2E23CD</referredTableID>
+<keyObject>A5E92636-CA6F-3FF9-1DB8-37CF530B2570</keyObject>
+<referredKeyID>A5E92636-CA6F-3FF9-1DB8-37CF530B2570</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pesel</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

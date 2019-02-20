@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA81D7F8-1DD0-DF60-C57E-1BC90B4E8F7A" name="Asortyment">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:06:03 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<importedID>EB7F3177-1F3E-0773-6FD6-0B2A8A63F546</importedID>
+<engineerTo>
+<item key="4B85BEE3-3120-875E-2F80-01C1FBC1D41B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F58DAFB6-8798-FDEE-4AE0-2B01AEA7FB7D">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:06:03 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<importedID>98DE7D32-60EF-F1DC-7CA8-9891AD67A763</importedID>
+<engineerTo>
+<item key="4B85BEE3-3120-875E-2F80-01C1FBC1D41B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa" id="54788B82-ECEF-069D-741F-A532E08D4B60">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:06:03 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<importedID>AFFC8C90-2BE4-DE57-1E5E-F002E5D80729</importedID>
+<engineerTo>
+<item key="4B85BEE3-3120-875E-2F80-01C1FBC1D41B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ilość" id="99AE7EF6-A57A-8A84-D660-A4760819C51A">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:06:03 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<importedID>76518C1E-5E9E-2171-934C-3F1A70B9C39A</importedID>
+<engineerTo>
+<item key="4B85BEE3-3120-875E-2F80-01C1FBC1D41B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="18DB81CF-5B78-72FC-4048-00A9A026CA00" name="Asortyment PK">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:06:03 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<importedID>5FF9D339-3206-CDBC-0CF7-399D61D9B043</importedID>
+<engineerTo>
+<item key="4B85BEE3-3120-875E-2F80-01C1FBC1D41B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F58DAFB6-8798-FDEE-4AE0-2B01AEA7FB7D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

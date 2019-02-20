@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4C040C3-DC3E-7071-3620-2B146D545F5E" name="Kluby_Sponsorzy">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Klub_REGON" id="86D796CF-3BAF-DE2D-1102-29D5DA59283F">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="051128A0-36A8-236E-F3B6-32159043A8A0" referredColumn="FB0774B8-DD6E-3788-AA8E-51F0B9714689"/>
+</associations>
+</Column>
+<Column name="Sponsor_NIP" id="FF210D1F-61E7-7EAC-36F4-6EAA6309B5D1">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8C6EF57-E1BB-8C23-D28D-8736B4626ADE" referredColumn="56ED26C3-1B92-A64B-824C-43A682FFF98D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF34EFC2-39A9-E8F2-3DF0-300CB4592BB4" name="klub-sponsor_PK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86D796CF-3BAF-DE2D-1102-29D5DA59283F"/>
+<colUsage columnID="FF210D1F-61E7-7EAC-36F4-6EAA6309B5D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4BA426A-56F4-9D1E-8765-3C2A9C444FB2" name="klub-sponsor_Klub_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>039FAD6E-412A-28EC-6D79-8073F09C507E</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86D796CF-3BAF-DE2D-1102-29D5DA59283F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE47C82D-2415-3E48-7CC9-59252C9B37A5" name="klub-sponsor_Sponsor_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>039FAD6E-412A-28EC-6D79-8073F09C507E</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF210D1F-61E7-7EAC-36F4-6EAA6309B5D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

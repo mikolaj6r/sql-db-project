@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6EA6951-C7CA-F9AD-3D4F-0766A1CFCA67" name="Klubowy">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:21:25 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<engineerTo>
+<item key="3E7F0EEF-7B3B-0600-B727-59DB797E7361" value="true"/>
+<item key="BC982DFF-D101-8E84-64B5-39FE5299395C" value="true"/>
+<item key="CA969858-2B2D-151D-DEEF-9633CA94C96C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>5B6D84CF-CD80-D057-93BA-F66582FE80C6</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr karty kibica" id="E69BBEEE-F959-7214-F221-B75964459455">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:24:20 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<engineerTo>
+<item key="3E7F0EEF-7B3B-0600-B727-59DB797E7361" value="true"/>
+<item key="BC982DFF-D101-8E84-64B5-39FE5299395C" value="true"/>
+<item key="CA969858-2B2D-151D-DEEF-9633CA94C96C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ulga" id="ED175D94-EDA5-5971-F5A5-2E39C119DB15">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:34:45 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<engineerTo>
+<item key="3E7F0EEF-7B3B-0600-B727-59DB797E7361" value="true"/>
+<item key="BC982DFF-D101-8E84-64B5-39FE5299395C" value="true"/>
+<item key="CA969858-2B2D-151D-DEEF-9633CA94C96C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGON" id="0E0372B2-4D85-ACDA-2390-41B7D042D874">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:38:12 UTC</createdTime>
+<generatorID>35BC6B93-525B-89B0-B625-7531332BCD91</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<engineerTo>
+<item key="3E7F0EEF-7B3B-0600-B727-59DB797E7361" value="true"/>
+<item key="BC982DFF-D101-8E84-64B5-39FE5299395C" value="true"/>
+<item key="CA969858-2B2D-151D-DEEF-9633CA94C96C" value="true"/>
+</engineerTo>
+<referedAttribute>902DDDE7-1CF8-396E-B1B4-FD0D2F363C28</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

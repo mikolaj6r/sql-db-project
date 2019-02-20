@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="klub-dzial" directorySegmentName="seg_0" id="F7584FC7-6422-1FC5-D93A-C41E495C3DC1">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:06:03 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<importedID>22E98AA6-E76E-07DD-76F0-9EFA7353AC4C</importedID>
+<engineerTo>
+<item key="4B85BEE3-3120-875E-2F80-01C1FBC1D41B" value="true"/>
+</engineerTo>
+<sourcePk>647B62FF-1830-FD39-AF85-36226E8ACE04</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Składa się z</nameOnSource>
+<nameOnTarget>Wchodzi w skład</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>845372F6-3D5E-52A7-2165-4169BCFC3619</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EDE31449-E246-9DB4-DAD0-6A3C4FF21B4D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

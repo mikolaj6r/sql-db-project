@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dział-wydarzenie" directorySegmentName="seg_0" id="AB2CD3BA-ED87-AD5A-D77B-A39A50EAFDC4">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:06:03 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<importedID>6CD99723-CBC2-DE9F-0206-C222CCE84951</importedID>
+<engineerTo>
+<item key="4B85BEE3-3120-875E-2F80-01C1FBC1D41B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Bierze udział w</nameOnSource>
+<nameOnTarget>Związane z</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>EDE31449-E246-9DB4-DAD0-6A3C4FF21B4D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C9B6A2A4-D55B-AB43-87CC-65BFF51A4973</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

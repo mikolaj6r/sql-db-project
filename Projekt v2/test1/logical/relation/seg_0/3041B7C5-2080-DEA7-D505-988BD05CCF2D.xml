@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dział-budynek" directorySegmentName="seg_0" id="3041B7C5-2080-DEA7-D505-988BD05CCF2D">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:07:52 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<engineerTo>
+<item key="4B85BEE3-3120-875E-2F80-01C1FBC1D41B" value="true"/>
+</engineerTo>
+<sourcePk>0418E4F5-CCCF-BD5A-0B95-542DDB1AE2F6</sourcePk>
+<targetPk>D6CB98DB-5EB7-8BBA-6E85-542CD6B730DB</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Posiada</nameOnSource>
+<nameOnTarget>Należy do</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>EDE31449-E246-9DB4-DAD0-6A3C4FF21B4D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9590AAF7-E5DE-532E-B6A8-5745B36A4B76</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

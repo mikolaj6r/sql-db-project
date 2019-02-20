@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C8C6EF57-E1BB-8C23-D28D-8736B4626ADE" containerWithKeyObject="E4C040C3-DC3E-7071-3620-2B146D545F5E" localFKIndex="BE47C82D-2415-3E48-7CC9-59252C9B37A5" name="klub-sponsor_Sponsor_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>039FAD6E-412A-28EC-6D79-8073F09C507E</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<referredTableLongName>Sponsorzy</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AC84924F-41D6-95BA-746B-EE1C62B36FC1</referredTableID>
+<keyObject>71CA6D47-DFC0-3BA2-A70A-B7C201673ECA</keyObject>
+<referredKeyID>71CA6D47-DFC0-3BA2-A70A-B7C201673ECA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIP</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

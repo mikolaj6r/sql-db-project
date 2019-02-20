@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="867A1A64-7B92-2C23-4005-53DA75D3078F" name="Sportowy">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:06:03 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<importedID>6A740B35-1A79-5F56-8D19-94BFC360AC64</importedID>
+<engineerTo>
+<item key="3E7F0EEF-7B3B-0600-B727-59DB797E7361" value="true"/>
+<item key="BC982DFF-D101-8E84-64B5-39FE5299395C" value="true"/>
+<item key="CA969858-2B2D-151D-DEEF-9633CA94C96C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>EDE31449-E246-9DB4-DAD0-6A3C4FF21B4D</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="kategoria" id="93FBD4AB-38D2-79F3-AD16-8B3B2AB995DE">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:06:03 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<importedID>AFFB73A7-72A3-8783-2511-48148CC3A425</importedID>
+<engineerTo>
+<item key="3E7F0EEF-7B3B-0600-B727-59DB797E7361" value="true"/>
+<item key="BC982DFF-D101-8E84-64B5-39FE5299395C" value="true"/>
+<item key="CA969858-2B2D-151D-DEEF-9633CA94C96C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="poziom wiekowy" id="71F352DB-BBDD-E175-646B-EBFE88564133">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:06:03 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<importedID>677EDE41-98FE-1BCC-9516-6E2A9E0B539A</importedID>
+<engineerTo>
+<item key="3E7F0EEF-7B3B-0600-B727-59DB797E7361" value="true"/>
+<item key="BC982DFF-D101-8E84-64B5-39FE5299395C" value="true"/>
+<item key="CA969858-2B2D-151D-DEEF-9633CA94C96C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

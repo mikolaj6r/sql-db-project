@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDE31449-E246-9DB4-DAD0-6A3C4FF21B4D" name="Dział">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:06:03 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<importedID>712CE1AC-C6E4-50A2-AF1A-98C5F524E470</importedID>
+<engineerTo>
+<item key="4B85BEE3-3120-875E-2F80-01C1FBC1D41B" value="true"/>
+<item key="12738995-2FD1-3CFB-9AE1-BECCA4C66F3C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nazwa" id="75F7E482-4C2D-16C0-8610-3559343F6698">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:06:03 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<importedID>DD01A224-10E4-B313-1A2C-0D54E95DFFCD</importedID>
+<engineerTo>
+<item key="4B85BEE3-3120-875E-2F80-01C1FBC1D41B" value="true"/>
+<item key="12738995-2FD1-3CFB-9AE1-BECCA4C66F3C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="REGON" id="4C1CF14F-6EA2-3570-2295-B29BC4770429">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:06:03 UTC</createdTime>
+<generatorID>F7584FC7-6422-1FC5-D93A-C41E495C3DC1</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<importedID>632A2949-7D79-7507-1159-3DC144301154</importedID>
+<engineerTo>
+<item key="4B85BEE3-3120-875E-2F80-01C1FBC1D41B" value="true"/>
+<item key="12738995-2FD1-3CFB-9AE1-BECCA4C66F3C" value="true"/>
+</engineerTo>
+<referedAttribute>902DDDE7-1CF8-396E-B1B4-FD0D2F363C28</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazwa1" id="0DEF9C49-8BED-3B36-1FB7-F11DB64576CD">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:09:06 UTC</createdTime>
+<generatorID>3041B7C5-2080-DEA7-D505-988BD05CCF2D</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<engineerTo>
+<item key="4B85BEE3-3120-875E-2F80-01C1FBC1D41B" value="true"/>
+<item key="12738995-2FD1-3CFB-9AE1-BECCA4C66F3C" value="true"/>
+</engineerTo>
+<referedAttribute>F6039D92-BA0A-5542-934A-82F332A73898</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adres" id="1DC8E44E-720C-0CB9-305D-C8B0C70A3600">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:46:47 UTC</createdTime>
+<generatorID>3041B7C5-2080-DEA7-D505-988BD05CCF2D</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<engineerTo>
+<item key="4B85BEE3-3120-875E-2F80-01C1FBC1D41B" value="true"/>
+<item key="12738995-2FD1-3CFB-9AE1-BECCA4C66F3C" value="true"/>
+</engineerTo>
+<referedAttribute>54593EA7-3649-43EF-2968-DE8E61B54825</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0418E4F5-CCCF-BD5A-0B95-542DDB1AE2F6" name="Dział PK">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:06:03 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<importedID>05FFA224-EF9C-D80C-EF41-8CEDC423CBED</importedID>
+<engineerTo>
+<item key="4B85BEE3-3120-875E-2F80-01C1FBC1D41B" value="true"/>
+<item key="12738995-2FD1-3CFB-9AE1-BECCA4C66F3C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>75F7E482-4C2D-16C0-8610-3559343F6698</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C2676F1-C601-305A-9F6B-7ECEF83C0D64" name="Dzialy-Asortymenty">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<ordsAlias>dzialy_asortymenty</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dział_nazwa" id="35E6BF08-C98B-00D1-2CB9-8D6BBE1A1086">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F6AD10B-9BA7-5D4B-AAC2-D6F733B85625" referredColumn="BDA143F2-8BB6-67BC-7808-AC950A3F9FEC"/>
+</associations>
+</Column>
+<Column name="Asortyment_id" id="CD57393B-0E1E-B137-1E70-4E400E61FD94">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A49AF55C-FD43-4D6B-1085-82914B9467A5" referredColumn="F6EBD9FA-5BA8-9BB6-875C-40027814C1ED"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59F6C579-2A37-4B9F-26CA-75CC8321F1D7" name="dział-asortyment_PK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35E6BF08-C98B-00D1-2CB9-8D6BBE1A1086"/>
+<colUsage columnID="CD57393B-0E1E-B137-1E70-4E400E61FD94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E393CA9-0155-B446-BA4B-AFF27384C4C3" name="dział-asortyment_Dział_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>312C77C9-54C8-3EBE-BCC1-4E76072DDE13</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35E6BF08-C98B-00D1-2CB9-8D6BBE1A1086"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0CCEC63-FBBA-EC33-48AA-0B791564B9CA" name="dział-asortyment_Asortyment_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>312C77C9-54C8-3EBE-BCC1-4E76072DDE13</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD57393B-0E1E-B137-1E70-4E400E61FD94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

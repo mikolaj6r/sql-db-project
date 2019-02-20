@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fanklub-kibic_fanklubowy" directorySegmentName="seg_0" id="B9F4C199-B15B-31AA-F6C1-2C764F241D8B">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:59:00 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<engineerTo>
+<item key="4B85BEE3-3120-875E-2F80-01C1FBC1D41B" value="true"/>
+<item key="12738995-2FD1-3CFB-9AE1-BECCA4C66F3C" value="true"/>
+</engineerTo>
+<sourcePk>06070B74-088D-7570-1B0C-230CAFF5CADA</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Posiada</nameOnSource>
+<nameOnTarget>Należy do</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9E47BCAA-3BAB-792D-BC1B-AFE42A6E4297</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>51E2DBC1-C19F-BB33-32B3-02BF7B9E3C0F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

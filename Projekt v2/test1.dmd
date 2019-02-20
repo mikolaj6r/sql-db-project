@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="test1" id="E199D341-BDB3-7E8B-C978-284718C7173D" version="3.5">
+<createdBy>Michał</createdBy>
+<createdTime>2019-02-18 20:04:28 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E199D341-BDB3-7E8B-C978-284718C7173D</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="48C6AEF6-5B73-F4FB-757F-2F3CCE8D398F">
+<designStoragePath>C:\Users\Michał\Desktop\testtststsa</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A9ED28E0-E9E0-E0B9-5C96-A140AB7785BB">
+<designStoragePath>C:\Users\Michał\Desktop\Projekt\Baza Danych Klubów Sportowych</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F3C3567-AFF9-A86D-F21D-2861CE5215D4" name="Dzialy">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>EDE31449-E246-9DB4-DAD0-6A3C4FF21B4D</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazwa" id="55636A95-E543-4B2D-DD69-0358A3B4DFDD">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>75F7E482-4C2D-16C0-8610-3559343F6698</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klub_REGON" id="C0E78306-605B-D66F-4EBD-1B618E7CDD25">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>4C1CF14F-6EA2-3570-2295-B29BC4770429</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64199D99-13FC-FB26-EF77-D5198D65EC48" referredColumn="FB0774B8-DD6E-3788-AA8E-51F0B9714689"/>
+</associations>
+</Column>
+<Column name="Budynek_nazwa" id="9196545A-EDB7-3139-FE26-76744083F23C">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>0DEF9C49-8BED-3B36-1FB7-F11DB64576CD</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5897E317-B718-3162-E717-8819ADBF16AD" referredColumn="92329DEE-686B-A46A-6C75-E91F3708451B"/>
+</associations>
+</Column>
+<Column name="Budynek_adres" id="FC652EE5-DF26-45F5-A0F6-1AE3FDB49123">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>1DC8E44E-720C-0CB9-305D-C8B0C70A3600</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5897E317-B718-3162-E717-8819ADBF16AD" referredColumn="C7227125-A700-F535-900B-9C1120E2D7FC"/>
+</associations>
+</Column>
+<Column name="czy_sportowy" id="27ADBE7F-047B-C841-B16E-95C3C87BCB93">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-20 00:19:34 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFA8ED9B-C54F-6388-AD8A-AE225C7AECD1" name="Dział_PK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>0418E4F5-CCCF-BD5A-0B95-542DDB1AE2F6</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55636A95-E543-4B2D-DD69-0358A3B4DFDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E4C7E29-B571-6376-3D75-7BA029F11822" name="Dział_Budynek_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>3041B7C5-2080-DEA7-D505-988BD05CCF2D</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9196545A-EDB7-3139-FE26-76744083F23C"/>
+<colUsage columnID="FC652EE5-DF26-45F5-A0F6-1AE3FDB49123"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="946210BE-4E0D-C92A-9FD1-A93040E096D8" name="Dział_Klub_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>F7584FC7-6422-1FC5-D93A-C41E495C3DC1</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0E78306-605B-D66F-4EBD-1B618E7CDD25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A2CB337-FFF5-10F8-CDB0-EC651B8CE4BB" name="Klubowi">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>F6EA6951-C7CA-F9AD-3D4F-0766A1CFCA67</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pesel" id="EA6F4402-E147-1A26-A5A6-92E2433C8D9E">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>1CF62CBB-AA63-0CCC-D73F-D998958F76AE</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="481D4BA5-469A-4BF7-F60E-7790DE1AD555" referredColumn="49CE8144-8C9B-3671-2FAE-308D8CDAA091"/>
+</associations>
+</Column>
+<Column name="nr_karty_kibica" id="C65A8374-FDC1-5F48-75C1-45B5972F4B64">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>E69BBEEE-F959-7214-F221-B75964459455</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ulga" id="D7FD6E5F-6971-5973-3CDA-91AE3360C0E7">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>ED175D94-EDA5-5971-F5A5-2E39C119DB15</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klub_REGON" id="DB08DF74-2A61-2E6D-16CA-DA76946EF358">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>0E0372B2-4D85-ACDA-2390-41B7D042D874</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C62794E2-80AD-20FE-E865-4B8332B73CD5" referredColumn="FB0774B8-DD6E-3788-AA8E-51F0B9714689"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF482BEB-3831-2A05-F30C-26B6DBDE7DB0" name="Klubowy_PK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>D40AE87D-3247-4230-ABC1-2719709F70B2</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA6F4402-E147-1A26-A5A6-92E2433C8D9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15162BE6-BC8D-AD2C-5CA4-556FC364E86A" name="Klubowy_Kibic_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>389211F3-7318-3D27-B0F9-D53D67DF3909</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA6F4402-E147-1A26-A5A6-92E2433C8D9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AF5F39E-E126-2E8E-FF26-C4642E845B21" name="Klubowy_Klub_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:51:38 UTC</createdTime>
+<generatorID>35BC6B93-525B-89B0-B625-7531332BCD91</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB08DF74-2A61-2E6D-16CA-DA76946EF358"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

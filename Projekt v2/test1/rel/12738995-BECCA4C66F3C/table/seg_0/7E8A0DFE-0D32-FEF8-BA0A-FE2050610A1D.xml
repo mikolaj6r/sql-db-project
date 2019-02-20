@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E8A0DFE-0D32-FEF8-BA0A-FE2050610A1D" name="Dzialy_Funkcje">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Funkcja_nazwa" id="8B0DCBB5-E30C-AF22-4B0C-F8E8B934E5C0">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9501B4E9-91E0-D8B0-8831-65EF066C6749" referredColumn="0D8FE829-8C7C-41EA-5C65-40C7A7DA4ECA"/>
+</associations>
+</Column>
+<Column name="Dział_nazwa" id="A468525E-75E7-9798-B333-8048EE1DE439">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC6091C7-8F33-B3B9-D3D9-26A0176F2F95" referredColumn="BDA143F2-8BB6-67BC-7808-AC950A3F9FEC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3A79624-0193-2503-723B-5B353450B9C1" name="dział-funkcja_PK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B0DCBB5-E30C-AF22-4B0C-F8E8B934E5C0"/>
+<colUsage columnID="A468525E-75E7-9798-B333-8048EE1DE439"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AC33B7D-78CE-FB8C-0D51-53F46971656F" name="dział-funkcja_Funkcja_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>A2BF0C48-36AA-D108-093F-7F6381D8528E</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B0DCBB5-E30C-AF22-4B0C-F8E8B934E5C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92C78F15-F807-4AC2-6564-23190160C26D" name="dział-funkcja_Dział_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>A2BF0C48-36AA-D108-093F-7F6381D8528E</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A468525E-75E7-9798-B333-8048EE1DE439"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

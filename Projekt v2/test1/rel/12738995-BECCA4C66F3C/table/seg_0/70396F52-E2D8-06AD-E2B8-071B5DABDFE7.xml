@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70396F52-E2D8-06AD-E2B8-071B5DABDFE7" name="Dzialy_Wydarzenia">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dział_nazwa" id="FFA72988-5FE4-23FA-B725-C130A7950B1E">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48156EAF-FF10-01AE-20D5-EFA19A162FB8" referredColumn="BDA143F2-8BB6-67BC-7808-AC950A3F9FEC"/>
+</associations>
+</Column>
+<Column name="Wydarzenie_nazwa" id="F8895611-AFBC-6833-8547-24503D973549">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCF7B2B0-FB93-2473-7CAC-1EF481C2DEB2" referredColumn="390F0778-5A0A-9786-9ECC-993431D6C46F"/>
+</associations>
+</Column>
+<Column name="Wydarzenie_data" id="1D684671-2CCE-E13B-1588-5C3A51E0EF7C">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCF7B2B0-FB93-2473-7CAC-1EF481C2DEB2" referredColumn="7836116A-FD5E-4D2B-D73A-849D05AE3085"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D983039B-4706-28AA-14A6-A2141A6655BE" name="dział-wydarzenie_PK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<ownerDesignName>test1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFA72988-5FE4-23FA-B725-C130A7950B1E"/>
+<colUsage columnID="F8895611-AFBC-6833-8547-24503D973549"/>
+<colUsage columnID="1D684671-2CCE-E13B-1588-5C3A51E0EF7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61B8D97F-3B83-991B-1B15-9CCB3B2DAACB" name="dział-wydarzenie_Dział_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>AB2CD3BA-ED87-AD5A-D77B-A39A50EAFDC4</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFA72988-5FE4-23FA-B725-C130A7950B1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="690FDE1B-3B7D-DFD4-49E5-3DB2F5DAFB31" name="dział-wydarzenie_Wydarzenie_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>AB2CD3BA-ED87-AD5A-D77B-A39A50EAFDC4</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8895611-AFBC-6833-8547-24503D973549"/>
+<colUsage columnID="1D684671-2CCE-E13B-1588-5C3A51E0EF7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

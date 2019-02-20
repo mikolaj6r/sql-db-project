@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E87DCF63-C621-D29D-1AE3-1BC72FE3E621" containerWithKeyObject="CFE1574C-9D30-A3D7-5662-6CD4FD4652B5" localFKIndex="604CA6DB-8436-7FB2-EEF6-003E5AE66821" name="Fanklubowy_Fanklub_FK">
+<createdBy>Mikołaj</createdBy>
+<createdTime>2019-02-19 23:02:50 UTC</createdTime>
+<generatorID>B9F4C199-B15B-31AA-F6C1-2C764F241D8B</generatorID>
+<ownerDesignName>test1</ownerDesignName>
+<referredTableLongName>Fankluby</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0B934431-45E5-17EC-021A-2BC1F7AC1C8C</referredTableID>
+<keyObject>249A541E-859E-890C-2A6E-620E4C98CA8E</keyObject>
+<referredKeyID>249A541E-859E-890C-2A6E-620E4C98CA8E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nazwa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
